@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    padding: 10px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+#avatar {
+    padding: 20px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.info {
+    padding: 10px;
+}
+
+/* Header Style */
+header {
+    padding: 10px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+/* Navbar Style */
+
+/* Footer Style */
+.footer {
+    display: flex;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#copyright {
+    margin-left: auto;
+}
