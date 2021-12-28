@@ -13,14 +13,20 @@ body {
 
 #avatar {
     padding: 20px;
+    margin-right: 30px;
+    margin-left: 50px;
 }
 
 img {
+    width: 250px;
+    height: auto;
     border-radius: 50%;
 }
 
 .info {
     padding: 10px;
+    margin-left: 30px;
+    margin-right: 50px;
 }
 
 /* Header Style */
@@ -36,8 +42,14 @@ header h1 {
 
 /* Navbar Style */
 .nav-bar {
-
+    padding: 30px;
+    font-size: large;
 }
+
+li {
+    display: inline;
+}
+
 
 /* Footer Style */
 .footer {
