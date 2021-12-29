@@ -12,6 +12,12 @@ body {
     justify-content: center;
 }
 
+#info-head,
+#emoji {
+    display: inline;
+    font-weight: normal;
+}
+
 #avatar {
     padding: 20px;
     margin-right: 30px;
