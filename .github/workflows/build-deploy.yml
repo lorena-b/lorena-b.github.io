@@ -11,7 +11,7 @@ jobs:
         run: |
           cd web-portfolio
           npm i create-react-app
-          npm run build
+          CI='' npm run build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.8
