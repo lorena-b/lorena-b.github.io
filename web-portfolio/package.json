@@ -1,7 +1,7 @@
 {
   "name": "web-portfolio",
   "version": "0.1.0",
-  "homepage": "https://lorena-b.github.io/webportfolio/",
+  "homepage": "https://lorena-b.github.io/WebPortfolio/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
