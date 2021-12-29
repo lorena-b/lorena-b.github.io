@@ -1,7 +1,7 @@
 {
   "name": "web-portfolio",
   "version": "0.1.0",
-  "homepage": "https://lorena-b.github.io/WebPortfolio/",
+  "homepage": "https://lorena-b.github.io/webportfolio/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
@@ -19,7 +19,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject", 
+    "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
