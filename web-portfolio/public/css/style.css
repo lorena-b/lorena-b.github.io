@@ -62,13 +62,12 @@ nav a {
     transition:color .2s ease-out, background 1s ease-in;
 }
 
-nav a:hover {
+
+nav a:hover, nav a:active {
     color: #A264DB;
 }
 
-nav a:active {
-    color: #A264DB;
-}
+
 
 nav ul {
     padding-inline-start: 0px;
@@ -90,12 +89,9 @@ nav li {
     width: 100%;
 }
 
-#github-icon {
-    margin-right: 10px;
-}
 
-#linkedin-icon {
-    margin-left: 5px;
+.iconify-inline {
+    margin-right: 10px;
 }
 
 #copyright {
