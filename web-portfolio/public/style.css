@@ -57,9 +57,14 @@ header h1 {
 nav a {
     text-decoration: none;
     color: black;
+    transition:color .2s ease-out, background 1s ease-in;
 }
 
 nav a:hover {
+    color: #A264DB;
+}
+
+nav a:active {
     color: #A264DB;
 }
 
