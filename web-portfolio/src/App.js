@@ -8,16 +8,12 @@ import Home from './components/Home'
 class App extends Component {
   render() {
     return (
-      <div id="colorlib-page">
         <div id="container-wrap">
             <Header></Header>
             <Navbar></Navbar>
-            <div id="colorlib-main">
-              <Home></Home>
-              <Footer></Footer>
-          	</div>
+            <Home></Home>
+            <Footer></Footer>
       	</div>
-      </div>
     );
   }
 }
