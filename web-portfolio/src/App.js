@@ -12,19 +12,19 @@ import Contact from './components/screens/Contact.js'
 class App extends Component {
   render() {
     return (
-        <div className="app">
-            <Router>
-              <Header />
-              <Navbar/>
-              <Routes>
-                  <Route path="/" exact element={<Home/>} /> 
-                  <Route path="/projects" exact element={<Projects/>} />
-                  <Route path="/resume" exact element={<Resume/>} />
-                  <Route path="/contact" exact element={<Contact/>} />
-              </Routes>
-            </Router>
-           <Footer />
-      	</div>
+      <div className="app">
+        <Router>
+          <Header />
+          <Navbar />
+          <Routes>
+            <Route path="/" exact element={<Home />} />
+            <Route path="/projects" exact element={<Projects />} />
+            <Route path="/resume" exact element={<Resume />} />
+            <Route path="/contact" exact element={<Contact />} />
+          </Routes>
+        </Router>
+        <Footer />
+      </div>
     );
   }
 }
