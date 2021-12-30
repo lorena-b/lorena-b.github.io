@@ -1,17 +1,17 @@
 import React, { Component } from 'react'
 import { Helmet } from 'react-helmet'
 
-const TITLE = "Projects"
+const TITLE = "Resume"
 
-export default class Projects extends Component {
+export default class Resume extends Component {
   render() {
     return (
-      <div>
+      <div> 
         <Helmet>
           <title>{ TITLE }</title>
         </Helmet>
 
-    
+   
       </div>
     )
   }

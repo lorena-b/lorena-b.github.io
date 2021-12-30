@@ -1,9 +1,15 @@
 import React, { Component } from 'react'
+import { Helmet } from 'react-helmet'
+
+const TITLE = "Home"
 
 export default class Home extends Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <title>{ TITLE }</title>
+        </Helmet>
         <main id="main">
         <div className="container">
           <div id="avatar">
