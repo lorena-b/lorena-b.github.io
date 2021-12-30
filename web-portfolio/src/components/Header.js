@@ -1,18 +1,16 @@
 import React, { Component } from 'react'
+import { useLocation } from 'react-router-dom';
 
-export default class Header extends Component {
+function Header() {
+    const { pathname } = useLocation()
 
-    // add logic to change header value 
-
-    render() {
-        return ( 
-            <div>
-                <header class="header">
-                    <h1>LORENA BUCIU</h1>
-                </header>
-            </div>
-        )
-    }
-
-
+    return (
+        <div>
+            <header class="header">
+                <h1>{pathname === "/" ? "LORENA BUCIU" : pathname.slice(1).toUpperCase()}</h1>
+            </header>
+        </div>
+    );
 }
+
+export default Header;
