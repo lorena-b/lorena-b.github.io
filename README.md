@@ -1,2 +1,2 @@
 # Powered by Github Pages
-## Portfolio Url: https://lorena-b.github.io/WebPortfolio/
+## Portfolio Url: https://lorena-b.github.io/
