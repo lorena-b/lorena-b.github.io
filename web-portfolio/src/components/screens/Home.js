@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Helmet } from 'react-helmet'
+import av from './img/pfp.png'
 
 const TITLE = "Home"
 
@@ -13,7 +14,7 @@ export default class Home extends Component {
         <main id="main">
         <div className="container">
           <div id="avatar">
-            <img src="img/pfp.png" alt="avatar" />
+            <img src={av} alt="avatar" />
           </div>
           {/* Text Info */}
           <div className="info">
