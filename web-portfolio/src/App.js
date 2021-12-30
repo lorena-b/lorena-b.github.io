@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css';
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
@@ -18,7 +18,6 @@ class App extends Component {
               <Navbar/>
               <Routes>
                   <Route path="/" exact element={<Home/>} /> 
-                  <Route path="/webportfolio/" exact element={<Home/>} /> 
                   <Route path="/projects" exact element={<Projects/>} />
                   <Route path="/resume" exact element={<Resume/>} />
                   <Route path="/contact" exact element={<Contact/>} />
