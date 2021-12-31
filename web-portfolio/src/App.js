@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css';
 import Navbar from './components/Navbar'
@@ -9,15 +9,15 @@ import Resume from './components/screens/Resume'
 import Projects from './components/screens/Projects'
 import Contact from './components/screens/Contact.js'
 import { AnimatePresence } from 'framer-motion';
+import { useLocation } from 'react-router';
 
-class App extends Component {
-  render() {
+function App() {
     return (
       <div className="app">
         <Router>
           <Header />
           <Navbar />
-          <AnimatePresence>
+          <AnimatePresence exitBeforeEnter>
             <Routes>
               <Route path="/" exact element={<Home />} />
               <Route path="/projects" exact element={<Projects />} />
@@ -29,7 +29,6 @@ class App extends Component {
         <Footer />
       </div>
     );
-  }
 }
 
 export default App;

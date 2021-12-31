@@ -7,7 +7,7 @@ const animations = {
     exit: { opacity: 0, x: -100 }
 }
 
-const AntimatedPage = ({ children }) => {
+const AnimatedPage = ({ children }) => {
     return (
         <motion.div
             variants={animations}
@@ -21,4 +21,4 @@ const AntimatedPage = ({ children }) => {
     )
 }
 
-export default AntimatedPage
+export default AnimatedPage
