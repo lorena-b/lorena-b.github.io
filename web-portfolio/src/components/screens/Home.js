@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
 import { Helmet } from 'react-helmet'
 import av from './img/pfp.png'
+import AnimatedPage from '../AnimatedPage'
 
 const TITLE = "About"
 
 export default class Home extends Component {
   render() {
     return (
+      <AnimatedPage>
         <div>
           <Helmet>
             <title>{TITLE}</title>
@@ -28,6 +30,7 @@ export default class Home extends Component {
             </div>
           </main>
         </div>
+      </AnimatedPage>
     )
   }
 }

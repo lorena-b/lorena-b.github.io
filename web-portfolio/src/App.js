@@ -8,6 +8,7 @@ import Home from './components/screens/Home'
 import Resume from './components/screens/Resume'
 import Projects from './components/screens/Projects'
 import Contact from './components/screens/Contact.js'
+import { AnimatePresence } from 'framer-motion';
 
 class App extends Component {
   render() {
@@ -16,12 +17,14 @@ class App extends Component {
         <Router>
           <Header />
           <Navbar />
-          <Routes>
-            <Route path="/" exact element={<Home />} />
-            <Route path="/projects" exact element={<Projects />} />
-            <Route path="/resume" exact element={<Resume />} />
-            <Route path="/contact" exact element={<Contact />} />
-          </Routes>
+          <AnimatePresence>
+            <Routes>
+              <Route path="/" exact element={<Home />} />
+              <Route path="/projects" exact element={<Projects />} />
+              <Route path="/resume" exact element={<Resume />} />
+              <Route path="/contact" exact element={<Contact />} />
+            </Routes>
+          </AnimatePresence>
         </Router>
         <Footer />
       </div>
