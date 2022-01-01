@@ -9,7 +9,6 @@ import Resume from './components/screens/Resume'
 import Projects from './components/screens/Projects'
 import Contact from './components/screens/Contact.js'
 import { AnimatePresence } from 'framer-motion';
-import { useLocation } from 'react-router';
 
 function App() {
     return (
