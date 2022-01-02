@@ -52,7 +52,7 @@ export default class Projects extends Component {
                   <a href="https://github.com/lorena-b/VSLR-model"><img className="proj-img hover-glow" src={vslr} alt="proj3"/></a>
                   <p className="proj-info">
                   Using Vancouver sea level rise CSV data, this program extrapolates the predicted sea level rise over the years using a combination of 
-                  SARIMAX and Theil-Sen regression models. Using Dash and Plotly capabilities these values are plotted onto a map of Vancouver with an interactive 
+                  SARIMAX and Theil-Sen regression models. Using Dash and Plotly capabilities, these values are plotted onto a map of Vancouver with an interactive 
                   slider to visualize which areas in the Vancouver region are most susceptible to flooding 280 years into the future. 
                   </p>
                   <div className="code-tags">
