@@ -15,7 +15,7 @@ export default class Home extends Component {
           </Helmet>
           <div className="container">
             <div id="avatar">
-              <img className="av hover-glow" src={av} alt="avatar" />
+              <a href="https://github.com/lorena-b/lorena-b.github.io"><img className="av hover-glow" src={av} alt="avatar" /></a>
             </div>
             {/* Text Info */}
             <div className="info">
