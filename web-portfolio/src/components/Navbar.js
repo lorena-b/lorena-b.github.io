@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
+import resumeFile from '../assets/documents/lorena_buciu_resume.pdf'
 
 export default class Navbar extends Component {
   render() {
@@ -11,7 +12,7 @@ export default class Navbar extends Component {
             <NavLink className="nav-link" to="/">ABOUT ME</NavLink>
           </li>
           <li>
-            <NavLink className="nav-link" to="/resume">RESUME</NavLink>
+            <a className="nav-link" href={resumeFile} target="blank">RESUME</a>
           </li>
           <li>
             <NavLink className="nav-link" to="/projects">PROJECTS</NavLink>

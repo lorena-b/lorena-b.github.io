@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Helmet } from 'react-helmet'
-import av from './img/pfp.png'
+import av from '../../assets/img/pfp.png'
 import AnimatedPage from '../AnimatedPage'
 
 const TITLE = "About"
@@ -28,7 +28,8 @@ export default class Home extends Component {
                 I am proficient in <code>Python</code> and <code>Java</code>. 
                 <br /><br />
                 I love to learn about new tools and technologies and am currently working on expanding my web development skills.  
-                In the past, I assisted with the development of <a className="info-link" href="https://github.com/pyta-uoft/pyta">PythonTA</a> and particpated in several hackathons such as <a className="info-link" href="https://devpost.com/software/reddit-analysis">TreeHacks</a> and <a className="info-link" href="https://devpost.com/software/superlist">Hack The North.</a>
+                In the past, I assisted with the development of <a className="info-link" href="https://github.com/pyta-uoft/pyta">PythonTA</a> and 
+                particpated in several hackathons such as <a className="info-link" href="https://devpost.com/software/reddit-analysis">TreeHacks</a> and <a className="info-link" href="https://devpost.com/software/superlist">Hack The North.</a>
                 <br /><br />
                 I am always looking for learning oppourtunities and ways to develop my experiences as an aspiring software engineer. Feel free to connect! :)
                 <p />
