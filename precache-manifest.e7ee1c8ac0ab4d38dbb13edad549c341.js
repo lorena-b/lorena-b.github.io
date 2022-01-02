@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "bca6d07bf9e3c084857d",
+    "revision": "012d32cf4ee2482d4765",
     "url": "/static/css/main.98e65e5c.chunk.css"
   },
   {
-    "revision": "bca6d07bf9e3c084857d",
-    "url": "/static/js/main.bca6d07b.chunk.js"
+    "revision": "012d32cf4ee2482d4765",
+    "url": "/static/js/main.012d32cf.chunk.js"
   },
   {
     "revision": "008ce750c2455cb9445b",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/static/media/lorena_buciu_resume.56d3405b.pdf"
   },
   {
-    "revision": "4f4d63f48b6a1a5e03f85ca1a26a98c2",
+    "revision": "ac8151c3594ff6ea970aed5f80ac9fcc",
     "url": "/index.html"
   }
 ];
