@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Helmet } from 'react-helmet'
 import AnimatedPage from '../components/AnimatedPage'
-import testimg from "../assets/img/projimg.png"
+import schedule from "../assets/img/schedule.png"
 import redditgif from "../assets/img/demogif.gif"
 import vslr from "../assets/img/frontend.png"
 
@@ -21,7 +21,7 @@ export default class Projects extends Component {
               <div className="projects-container">
                 <div className="project">
                   <h2>UofT Course Scheduling App</h2>
-                  <a href="https://github.com/lorena-b/UofT-Course-Scheduling-Application"><img className="proj-img hover-glow" src={testimg} alt="proj1"/></a>
+                  <a href="https://github.com/lorena-b/UofT-Course-Scheduling-Application"><img className="proj-img hover-glow" src={schedule} alt="proj1"/></a>
                   <p className="proj-info">
                   A user specifies which courses they want to take, and also specify filters, like "No classes after 5 PM", or to find sections with no conflicts, 
                   through the CLI. The program queries the U of T Academic Calendar 
