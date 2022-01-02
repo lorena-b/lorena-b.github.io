@@ -6,7 +6,6 @@ import Footer from './components/Footer'
 import Header from './components/Header'
 import Home from './components/screens/Home'
 import Projects from './components/screens/Projects'
-import Contact from './components/screens/Contact.js'
 import { AnimatePresence } from 'framer-motion';
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
             <Routes>
               <Route path="/" exact element={<Home />} />
               <Route path="/projects" exact element={<Projects />} />
-              <Route path="/contact" exact element={<Contact />} />
             </Routes>
           </AnimatePresence>
         </Router>
