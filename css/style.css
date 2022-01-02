@@ -21,13 +21,14 @@
     height: auto;
     max-width: 100%;
     border-radius: 50%;
+    transition: all .3s ease;
 }
 
 .hover-glow:hover {
     -webkit-box-shadow: 0px 0px 20px 0px rgb(168, 167, 165);
     -moz-box-shadow: 0px 0px 20px 0px rgb(168, 167, 165);
     box-shadow: 0px 0px 20px 0px rgb(168, 167, 165);
-    transition: all .3s ease-in-out;
+    transition: all .3s ease;
 }
 
 
@@ -88,6 +89,7 @@ header h1 {
     width: 400px;
     height: 200px;
     object-fit: cover;
+    transition: all .3s ease;
 }
 
 .tag {
