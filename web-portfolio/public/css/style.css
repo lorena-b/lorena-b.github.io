@@ -129,3 +129,7 @@ nav li {
     padding-right: 50px;
     margin-top: 15px;
 }
+
+.info-link, .info-link:active {
+    color: #A264DB;
+  }
