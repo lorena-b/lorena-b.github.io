@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.1ef64863.chunk.css",
-  "main.js": "/static/js/main.9c8c0fcc.chunk.js",
-  "main.js.map": "/static/js/main.9c8c0fcc.chunk.js.map",
+  "main.js": "/static/js/main.146f8fb4.chunk.js",
+  "main.js.map": "/static/js/main.146f8fb4.chunk.js.map",
   "static/js/1.4834de55.chunk.js": "/static/js/1.4834de55.chunk.js",
   "static/js/1.4834de55.chunk.js.map": "/static/js/1.4834de55.chunk.js.map",
   "static/js/2.e5290b48.chunk.js": "/static/js/2.e5290b48.chunk.js",
@@ -9,11 +9,11 @@
   "runtime~main.js": "/static/js/runtime~main.89d28e52.js",
   "runtime~main.js.map": "/static/js/runtime~main.89d28e52.js.map",
   "static/media/lorena_buciu_resume.pdf": "/static/media/lorena_buciu_resume.56d3405b.pdf",
-  "static/media/projimg.png": "/static/media/projimg.586ceed1.png",
+  "static/media/schedule.png": "/static/media/schedule.98692157.png",
   "static/media/demogif.gif": "/static/media/demogif.6b26b0ad.gif",
   "static/media/frontend.png": "/static/media/frontend.5ee7d570.png",
   "static/css/main.1ef64863.chunk.css.map": "/static/css/main.1ef64863.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.4494c2b7b1d79c65318d63940c5f1a56.js": "/precache-manifest.4494c2b7b1d79c65318d63940c5f1a56.js",
+  "precache-manifest.1448591d2b9ef214bc4b77e1c0700d18.js": "/precache-manifest.1448591d2b9ef214bc4b77e1c0700d18.js",
   "service-worker.js": "/service-worker.js"
 }
