@@ -4,8 +4,8 @@ import './App.css';
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Header from './components/Header'
-import Home from './components/screens/Home'
-import Projects from './components/screens/Projects'
+import Home from './screens/Home'
+import Projects from './screens/Projects'
 import { AnimatePresence } from 'framer-motion';
 
 function App() {
