@@ -6,8 +6,7 @@ import '../assets/css/navbar.css'
 export default class Navbar extends Component {
   render() {
     return (
-      <div>
-         <nav className="nav-bar">
+      <nav className="nav-bar">
         <ul>
           <li>
             <NavLink className="nav-link" to="/">ABOUT ME</NavLink>
@@ -23,7 +22,6 @@ export default class Navbar extends Component {
           </li>
         </ul>
       </nav>
-      </div>
     )
   }
 }

@@ -5,9 +5,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -22,8 +19,18 @@ body {
     }
 }
 
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
   color: #A264DB;
+}
+
+.hover-glow:hover {
+  -webkit-box-shadow: 0px 0px 20px 0px rgb(168, 167, 165);
+  -moz-box-shadow: 0px 0px 20px 0px rgb(168, 167, 165);
+  box-shadow: 0px 0px 20px 0px rgb(168, 167, 165);
+  transition: all .3s ease;
+}
+
+p {
+  line-height: 1.5em;
 }

@@ -11,7 +11,6 @@ export default class Projects extends Component {
   render() {
     return (
       <AnimatedPage>
-        <div>
           <Helmet>
             <title>{TITLE}</title>
           </Helmet>
@@ -62,7 +61,6 @@ export default class Projects extends Component {
                   </div>
                 </div>
               </div>
-            </div>
       </AnimatedPage>
     )
   }

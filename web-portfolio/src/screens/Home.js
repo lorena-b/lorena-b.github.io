@@ -9,7 +9,6 @@ export default class Home extends Component {
   render() {
     return (
       <AnimatedPage>
-        <div>
           <Helmet>
             <title>{TITLE}</title>
           </Helmet>
@@ -33,7 +32,6 @@ export default class Home extends Component {
                 <p />
             </div>
           </div>
-        </div>
       </AnimatedPage>
     )
   }
