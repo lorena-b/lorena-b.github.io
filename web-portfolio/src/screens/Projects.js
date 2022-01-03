@@ -17,8 +17,7 @@ export default class Projects extends Component {
           </Helmet>
           <div className="container">
             {/* Project Info */}
-              <div className="info projects-container">
-                <div className="project">
+                <div className="project-col">
                   <h2 className="info-head">UofT Course Scheduling App</h2>
                   <a href="https://github.com/lorena-b/UofT-Course-Scheduling-Application"><img className="proj-img hover-glow" src={schedule} alt="proj1"/></a>
                   <p className="proj-info">
@@ -33,7 +32,7 @@ export default class Projects extends Component {
                     <button className="tag"> Java </button>
                   </div>
                 </div>
-                <div className="project">
+                <div className="project-col">
                   <h2 className="info-head">Reddit Topic Analysis</h2>
                   <a href="https://github.com/lorena-b/TreeHacks"><img className="proj-img hover-glow" src={redditgif} alt="proj2"/></a>
                   <p className="proj-info">
@@ -46,7 +45,7 @@ export default class Projects extends Component {
                     <button className="tag"> Flask </button>
                   </div>
                 </div>
-                <div className="project">
+                <div className="project-col">
                   <h2 className="info-head">VSLR Model</h2>
                   <a href="https://github.com/lorena-b/VSLR-model"><img className="proj-img hover-glow" src={vslr} alt="proj3"/></a>
                   <p className="proj-info">
@@ -64,7 +63,6 @@ export default class Projects extends Component {
                 </div>
               </div>
             </div>
-          </div>
       </AnimatedPage>
     )
   }

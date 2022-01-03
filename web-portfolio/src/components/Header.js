@@ -1,5 +1,6 @@
 import React from 'react'
 import { useLocation } from 'react-router-dom';
+import '../assets/css/header.css'
 
 function Header() {
     const { pathname } = useLocation()
