@@ -17,10 +17,9 @@ export default class Projects extends Component {
           </Helmet>
           <div className="container">
             {/* Project Info */}
-            <div className="info">
-              <div className="projects-container">
+              <div className="info projects-container">
                 <div className="project">
-                  <h2>UofT Course Scheduling App</h2>
+                  <h2 className="info-head">UofT Course Scheduling App</h2>
                   <a href="https://github.com/lorena-b/UofT-Course-Scheduling-Application"><img className="proj-img hover-glow" src={schedule} alt="proj1"/></a>
                   <p className="proj-info">
                   A user specifies which courses they want to take, and also specify filters, like "No classes after 5 PM", or to find sections with no conflicts, 
@@ -35,7 +34,7 @@ export default class Projects extends Component {
                   </div>
                 </div>
                 <div className="project">
-                  <h2>Reddit Topic Analysis</h2>
+                  <h2 className="info-head">Reddit Topic Analysis</h2>
                   <a href="https://github.com/lorena-b/TreeHacks"><img className="proj-img hover-glow" src={redditgif} alt="proj2"/></a>
                   <p className="proj-info">
                   The program asks the user to input a specific topic or keyword. It then searches through about 1,000 Reddit posts with that corresponding keyword. It then outputs the market popularity of that topic. It also outputs consumer sentiment towards that topic,
@@ -48,7 +47,7 @@ export default class Projects extends Component {
                   </div>
                 </div>
                 <div className="project">
-                  <h2>VSLR Model</h2>
+                  <h2 className="info-head">VSLR Model</h2>
                   <a href="https://github.com/lorena-b/VSLR-model"><img className="proj-img hover-glow" src={vslr} alt="proj3"/></a>
                   <p className="proj-info">
                   Using Vancouver sea level rise CSV data, this program extrapolates the predicted sea level rise over the years using a combination of 
@@ -66,7 +65,6 @@ export default class Projects extends Component {
               </div>
             </div>
           </div>
-        </div>
       </AnimatedPage>
     )
   }

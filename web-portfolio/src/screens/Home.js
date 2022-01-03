@@ -18,8 +18,7 @@ export default class Home extends Component {
               <a href="https://github.com/lorena-b/lorena-b.github.io"><img className="av hover-glow" src={av} alt="avatar" /></a>
             </div>
             {/* Text Info */}
-            <div className="info">
-              <div className="home-text">
+            <div className="info home-text">
                 <h2 className="info-head">Hi, I'm Lorena! <span role="img" aria-label="wave"> 👋</span></h2>
                 <p></p>
                 I am a second year Computer Science student at the University of Toronto experienced in both front-end and back-end development.
@@ -32,7 +31,6 @@ export default class Home extends Component {
                 <br /><br />
                 I am always looking for learning oppourtunities and ways to develop my experiences as an aspiring software engineer. Feel free to connect! :)
                 <p />
-              </div>
             </div>
           </div>
         </div>
