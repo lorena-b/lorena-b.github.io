@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
 import resumeFile from '../assets/documents/lorena_buciu_resume.pdf'
-import '../assets/css/navbar.css'
+import './navbar.css'
 
 export default class Navbar extends Component {
   render() {

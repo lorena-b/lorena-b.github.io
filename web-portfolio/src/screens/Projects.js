@@ -4,6 +4,7 @@ import AnimatedPage from '../components/AnimatedPage'
 import schedule from "../assets/img/schedule.png"
 import redditgif from "../assets/img/demogif.gif"
 import vslr from "../assets/img/frontend.png"
+import './projects.css'
 
 const TITLE = "Projects"
 

@@ -1,0 +1,28 @@
+.proj-img {
+    width: 450px;
+    height: 200px;
+    margin-top: 15px;
+    object-fit: cover;
+    transition: all .3s ease;
+}
+
+.project-col {
+    padding: 30px;
+    padding-top: 0;
+    max-width: 450px;
+}
+
+.tag {
+    border-radius: 10px;
+    border: none; 
+    padding: 5px 8px 5px 8px;
+    background-color: #d4acf8;
+    font-weight: 700;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.divider {
+    width:10px;
+    height:auto;
+    display:inline-block;
+}

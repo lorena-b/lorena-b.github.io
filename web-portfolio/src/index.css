@@ -34,3 +34,36 @@ code {
 p {
   line-height: 1.5em;
 }
+
+.info-head {
+  display: inline;
+  font-weight: normal;
+}
+
+.container {
+  padding: 10px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 800px) {
+  .project-col {
+      flex-direction: column;
+  }
+
+  .container {
+      padding: 5px;
+  }
+}
+
+.info-link, .info-link:active {
+  text-decoration: none;
+  color: #A264DB;
+}
+
+.info-link:hover {
+  text-decoration: underline;
+}

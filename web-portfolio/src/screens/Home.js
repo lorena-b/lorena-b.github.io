@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Helmet } from 'react-helmet'
 import av from '../assets/img/pfp.png'
 import AnimatedPage from '../components/AnimatedPage'
+import './home.css'
 
 const TITLE = "About"
 
