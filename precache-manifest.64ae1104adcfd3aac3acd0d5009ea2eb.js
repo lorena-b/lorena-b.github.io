@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "bb07c4172dce2dc75e95",
+    "revision": "d5339a07a2cc4be3473c",
     "url": "/static/css/main.0ee76e3d.chunk.css"
   },
   {
-    "revision": "bb07c4172dce2dc75e95",
-    "url": "/static/js/main.bb07c417.chunk.js"
+    "revision": "d5339a07a2cc4be3473c",
+    "url": "/static/js/main.d5339a07.chunk.js"
   },
   {
     "revision": "f8c3537b643205a6b63a",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.460e62fc.js"
   },
   {
-    "revision": "70f1997b99ef4d6858b0fe9e9eb7d903",
-    "url": "/static/media/lorena_buciu_resume.70f1997b.pdf"
+    "revision": "182440f87b472994cf1a06502202c78f",
+    "url": "/static/media/lorena_buciu_resume.182440f8.pdf"
   },
   {
     "revision": "9869215710e27109035d47ccca61fb25",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/static/media/frontend.5ee7d570.png"
   },
   {
-    "revision": "4b828490d7c546a56681f397ed438d28",
+    "revision": "bcc6972d4fcefee54440160adcab7e98",
     "url": "/index.html"
   }
 ];
