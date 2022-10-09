@@ -28,7 +28,7 @@ export default class Home extends Component {
                 <p>
                 I love to learn about new tools and technologies and am currently working on expanding my web development skills.
                 In the past, I assisted with the development of <a className="info-link" href="https://github.com/pyta-uoft/pyta">PythonTA</a> and
-                particpated in several hackathons such as <a className="info-link" href="https://devpost.com/software/reddit-analysis">TreeHacks</a> and <a className="info-link" href="https://devpost.com/software/superlist">Hack The North</a>.
+                participated in several hackathons such as <a className="info-link" href="https://devpost.com/software/reddit-analysis">TreeHacks</a> and <a className="info-link" href="https://devpost.com/software/superlist">Hack The North</a>.
                 Recently, I interned as a full stack developer at <a className="info-link" href="https://www.dashhudson.com/">Dash Hudson</a>.  
                 </p>
                 <p>
