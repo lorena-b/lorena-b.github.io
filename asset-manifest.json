@@ -1,19 +1,19 @@
 {
-  "main.css": "/static/css/main.0ee76e3d.chunk.css",
-  "main.js": "/static/js/main.42e568e2.chunk.js",
-  "main.js.map": "/static/js/main.42e568e2.chunk.js.map",
-  "static/js/1.f8c3537b.chunk.js": "/static/js/1.f8c3537b.chunk.js",
-  "static/js/1.f8c3537b.chunk.js.map": "/static/js/1.f8c3537b.chunk.js.map",
-  "static/js/2.0dda5620.chunk.js": "/static/js/2.0dda5620.chunk.js",
-  "static/js/2.0dda5620.chunk.js.map": "/static/js/2.0dda5620.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.460e62fc.js",
-  "runtime~main.js.map": "/static/js/runtime~main.460e62fc.js.map",
-  "static/media/lorena_buciu_resume.pdf": "/static/media/lorena_buciu_resume.182440f8.pdf",
-  "static/media/schedule.png": "/static/media/schedule.98692157.png",
-  "static/media/demogif.gif": "/static/media/demogif.6b26b0ad.gif",
-  "static/media/frontend.png": "/static/media/frontend.5ee7d570.png",
-  "static/css/main.0ee76e3d.chunk.css.map": "/static/css/main.0ee76e3d.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.c8cf8ba86a9ada30700ae35aff319dd5.js": "/precache-manifest.c8cf8ba86a9ada30700ae35aff319dd5.js",
-  "service-worker.js": "/service-worker.js"
+  "files": {
+    "main.css": "/static/css/main.d9dc9e94.css",
+    "main.js": "/static/js/main.8b446ac4.js",
+    "static/js/787.2109992d.chunk.js": "/static/js/787.2109992d.chunk.js",
+    "static/media/frontend.png": "/static/media/frontend.e6d32464e3060cebaf6a.png",
+    "static/media/schedule.png": "/static/media/schedule.c860faab2b854c45e6c0.png",
+    "static/media/demogif.gif": "/static/media/demogif.d6eea9c694580936ef69.gif",
+    "static/media/lorena_buciu_resume.pdf": "/static/media/lorena_buciu_resume.965db7051d09c5b575e2.pdf",
+    "index.html": "/index.html",
+    "main.d9dc9e94.css.map": "/static/css/main.d9dc9e94.css.map",
+    "main.8b446ac4.js.map": "/static/js/main.8b446ac4.js.map",
+    "787.2109992d.chunk.js.map": "/static/js/787.2109992d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9dc9e94.css",
+    "static/js/main.8b446ac4.js"
+  ]
 }
