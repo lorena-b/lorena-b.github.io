@@ -21,7 +21,7 @@ export default class Home extends Component {
             <div className="info home-text">
                 <h2 className="info-head">Hi, I'm Lorena! <span role="img" aria-label="wave"> 👋</span></h2>
                 <p>
-                I am a fourth-year Computer Science student at the University of Toronto experienced in both front-end and back-end development, expecting to graduate in Spring 2025.
+                I am a fourth-year Computer Science student at the University of Toronto experienced in full-stack development, expecting to graduate in Spring 2025.
                 I'm interested in developing software systems and am passionate about using my technical expertise to solve a variety of the world's problems.
                 I am proficient in <code>Python</code> and <code>JavaScript/TypeScript</code>.
                 </p>
