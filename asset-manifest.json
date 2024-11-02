@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d9dc9e94.css",
-    "main.js": "/static/js/main.a1bb9859.js",
+    "main.js": "/static/js/main.307fa7d5.js",
     "static/js/787.2109992d.chunk.js": "/static/js/787.2109992d.chunk.js",
     "static/media/frontend.png": "/static/media/frontend.e6d32464e3060cebaf6a.png",
     "static/media/schedule.png": "/static/media/schedule.c860faab2b854c45e6c0.png",
@@ -9,11 +9,11 @@
     "static/media/lorena_buciu_resume.pdf": "/static/media/lorena_buciu_resume.965db7051d09c5b575e2.pdf",
     "index.html": "/index.html",
     "main.d9dc9e94.css.map": "/static/css/main.d9dc9e94.css.map",
-    "main.a1bb9859.js.map": "/static/js/main.a1bb9859.js.map",
+    "main.307fa7d5.js.map": "/static/js/main.307fa7d5.js.map",
     "787.2109992d.chunk.js.map": "/static/js/787.2109992d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d9dc9e94.css",
-    "static/js/main.a1bb9859.js"
+    "static/js/main.307fa7d5.js"
   ]
 }
