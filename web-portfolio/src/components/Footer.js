@@ -15,7 +15,7 @@ export default class Footer extends Component {
             <span className="iconify-inline" data-icon="entypo-social:linkedin-with-circle" style={{ color: 'black' }} data-width={40} data-height={40}>
             </span></a>
         </div>
-        <div id="copyright">© 2021 Lorena Buciu</div>
+        <div id="copyright">© 2024 Lorena Buciu</div>
       </footer>
     )
   }
