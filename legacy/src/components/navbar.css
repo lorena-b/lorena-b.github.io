@@ -1,0 +1,33 @@
+/* Navbar Style */
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-size: larger;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    transition: color .2s ease-out, background 1s ease-in;
+}
+
+nav a:hover,
+nav a:active {
+    color: #A264DB;
+}
+
+.active {
+    color: #A264DB;
+}
+
+nav ul {
+    padding-inline-start: 0px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    margin-left: 20px;
+}

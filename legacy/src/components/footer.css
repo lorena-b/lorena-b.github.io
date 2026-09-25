@@ -1,0 +1,20 @@
+/* Footer Style */
+
+.footer {
+    display: flex;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.iconify-inline {
+    margin-right: 15px;
+}
+
+#copyright {
+    margin-left: auto;
+    padding-right: 50px;
+    margin-top: 15px;
+}
